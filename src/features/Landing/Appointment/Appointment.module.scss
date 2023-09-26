@@ -7,21 +7,22 @@
   gap: 30px;
   width: 960px;
   min-height: 658px;
-  margin: 50px auto 0;
+  margin: 50px 0 0;
   background-image: url(../../../assets/images/animals.png);
-  background-size: 60%;
+  background-size: 600px 495px;
   background-repeat: no-repeat;
   background-position: right;
 }
 
 @media (max-width: 767px) {
   .container {
-      width: 100%;
-      background-size: 90%;
-      background-position: center;
-      justify-content: flex-end;
-      margin: 0 auto;
-      padding: 0 0 15px 0;
+    width: 100%;
+    background-size: 75%;
+    background-position: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0 15px 0;
   }
 }
 
@@ -35,7 +36,8 @@
 
 @media (max-width: 767px) {
   .text {
-      margin: 0 auto;
+    color: #FFFFFF;
+    margin: 0 auto;
   }
 }
 
@@ -54,6 +56,7 @@
   .text-selected {
     font-size: 32px;
     font-weight: 700;
+    color: #FAE1BB;
     margin: 0 auto;
   }
 }
@@ -67,10 +70,4 @@
   height: auto;
   background-color: $blue;
   color: $white;
-}
-
-@media (max-width: 767px) {
-  .button {
-      margin: 0 auto;
-  }
 }
