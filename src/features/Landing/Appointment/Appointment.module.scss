@@ -14,7 +14,7 @@
   background-position: right;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .container {
     width: 100%;
     background-size: 75%;
@@ -34,7 +34,7 @@
   max-width: 308px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .text {
     color: #FFFFFF;
     margin: 0 auto;
@@ -52,7 +52,7 @@
   font-weight: 400;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .text-selected {
     font-size: 32px;
     font-weight: 700;
