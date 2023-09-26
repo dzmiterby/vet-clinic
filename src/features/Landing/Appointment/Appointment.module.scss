@@ -17,7 +17,7 @@
 @media (max-width: 767px) {
   .container {
       width: 100%;
-      background-size: 100%;
+      background-size: 90%;
       background-position: center;
       justify-content: flex-end;
       margin: 0 auto;
@@ -31,6 +31,12 @@
   line-height: 54px;
   font-weight: 700;
   max-width: 308px;
+}
+
+@media (max-width: 767px) {
+  .text {
+      margin: 0 auto;
+  }
 }
 
 .inverse-text {
@@ -48,6 +54,7 @@
   .text-selected {
     font-size: 32px;
     font-weight: 700;
+    margin: 0 auto;
   }
 }
 
@@ -60,4 +67,10 @@
   height: auto;
   background-color: $blue;
   color: $white;
+}
+
+@media (max-width: 767px) {
+  .button {
+      margin: 0 auto;
+  }
 }
