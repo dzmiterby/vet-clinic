@@ -23,7 +23,10 @@
     align-items: center;
     margin: -70px auto 0;
   }
-  .container div {
+}
+
+@media (max-width: 480px) {
+  .container-base {
     width: 100%;
     min-height: 658px;
     display: flex;
