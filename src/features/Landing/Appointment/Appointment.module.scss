@@ -22,12 +22,16 @@
     justify-content: flex-end;
     align-items: center;
     margin: -70px auto 0;
-    padding: 0 0 20px 0;
   }
   .container div {
     width: 100%;
-    min-height: 678px;
+    min-height: 658px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     background-color: rgba(5, 1, 49, 0.39);
+    padding: 0 0 20px 0;
   }
 }
 
