@@ -25,9 +25,11 @@ const Appointment = () => {
 
   return (
     <section className={styles.container}>
-      <h1 className={setStyle(theme, styles.text, `${styles.text} ${styles['inverse-text']}`)}>Мы заботимся о здоровье</h1>
-      <p className={setStyle(theme, styles['text-selected'], `${styles['text-selected']} ${styles['inverse-text-selected']}`)}>ВАШИХ ПИТОМЦЕВ</p>
-      <Button styleBtn={styleBtn} text={text}  theme={themeButton} />
+      <div>
+        <h1 className={setStyle(theme, styles.text, `${styles.text} ${styles['inverse-text']}`)}>Мы заботимся о здоровье</h1>
+        <p className={setStyle(theme, styles['text-selected'], `${styles['text-selected']} ${styles['inverse-text-selected']}`)}>ВАШИХ ПИТОМЦЕВ</p>
+        <Button styleBtn={styleBtn} text={text}  theme={themeButton} />
+      </div>
     </section>
   );
 };

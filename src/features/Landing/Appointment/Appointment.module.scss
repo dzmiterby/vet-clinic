@@ -18,12 +18,14 @@
   .container {
     width: 100%;
     background-size: 75%;
-    background-color: rgba(5, 1, 49, 0.39);
     background-position: center;
     justify-content: flex-end;
     align-items: center;
     margin: -50px auto 0;
     padding: 0 0 20px 0;
+  }
+  .container div {
+    background-color: rgba(5, 1, 49, 0.39);
   }
 }
 
